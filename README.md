@@ -1,6 +1,6 @@
-# Crawdad
+# Welcome
 
-A blog!
+A blog about stuff!
 
 ---
 
@@ -12,4 +12,4 @@ Anyway - welcome to the things I think are worth talking about!
 
 ---
 
-Feel free to contact me if you find anything of interest at <a href=mailto:jxandercrawford@gmail.com>jxandercrawford@gmail.com</a>.
+Feel free to contact me if you find anything of interest at [jxandercrawford@gmail.com](mailto:jxandercrawford@gmail.com).
