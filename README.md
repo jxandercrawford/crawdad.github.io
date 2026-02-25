@@ -13,3 +13,21 @@ Anyway - welcome to the things I think are worth talking about!
 ---
 
 Feel free to contact me if you find anything of interest at [jxandercrawford@gmail.com](mailto:jxandercrawford@gmail.com).
+
+---
+
+<div class="home">
+  <h1>Latest Posts</h1>
+  {% for post in site.posts %}
+    <article class="post-card">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="post-meta">
+        Posted on {{ post.date | date: "%B %-d, %Y" }}
+      </p>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+    </article>
+  {% endfor %}
+</div>
